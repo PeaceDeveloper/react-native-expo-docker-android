@@ -9,10 +9,9 @@ services:
       - 127.0.0.1:4723:4723 # Appium
       - 127.0.0.1:5555:5555/tcp # ADB
       - 127.0.0.1:27042:27042/tcp # Frida
-      - 8081:8081
+      - 8081:8081 # expo web server
     # volumes:
     #   - ./app:/app
-      # - $TARGET_APK
     environment:
       - RUN_APPIUM=yes
     devices:

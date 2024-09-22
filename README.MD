@@ -22,5 +22,22 @@ Ensure you have the following installed:
 ### Quick Start
 
 1. Update the variable REACT_NATIVE_PACKAGER_HOSTNAME in the .env file with you local ip.
-2. To install the necessary dependencies, run the following command: docker compose run android npm install
-2. Then docker compose up
+2. To install the necessary dependencies, run the following command: 
+    ```
+    docker compose run android npm install
+    ```
+3. Then
+    ```
+    docker compose up
+    ```
+
+### Test solution
+
+1. Open the web expo app serving on http://localhost:8081
+2. Open the emulator serving on http://127.0.0.1:6080
+3. Read the QR Code displayed on the console with your expo app.
+
+
+### Next esteps
+1. Enable hot reload
+2. Add Iphone Emulators
