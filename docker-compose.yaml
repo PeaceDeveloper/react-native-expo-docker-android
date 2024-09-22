@@ -1,0 +1,23 @@
+version: "4"
+services:
+  android:
+    build: 
+      context: ./app
+      dockerfile: ./docker/Dockerfile
+    ports:
+      - 127.0.0.1:6080:6080/tcp # NoVNC
+      - 127.0.0.1:4723:4723 # Appium
+      - 127.0.0.1:5555:5555/tcp # ADB
+      - 127.0.0.1:27042:27042/tcp # Frida
+      - 8081:8081
+    # volumes:
+    #   - ./app:/app
+      # - $TARGET_APK
+    environment:
+      - RUN_APPIUM=yes
+    devices:
+      - /dev/kvm
+    env_file:
+      - ./app/.env
+    tty: true
+    stdin_open: true
