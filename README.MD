@@ -41,3 +41,10 @@ Ensure you have the following installed:
 ### Next esteps
 1. Enable hot reload
 2. Add Iphone Emulators
+
+
+### Donate
+
+If you find this project useful, please consider making a donation to support its development:
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=MAYU76Y6THDZY)
