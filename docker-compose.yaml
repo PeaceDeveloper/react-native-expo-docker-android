@@ -10,8 +10,8 @@ services:
       - 127.0.0.1:5555:5555/tcp # ADB
       - 127.0.0.1:27042:27042/tcp # Frida
       - 8081:8081 # expo web server
-    # volumes:
-    #   - ./app:/app
+    volumes:
+      - ./app:/app
     environment:
       - RUN_APPIUM=yes
     devices:
