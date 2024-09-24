@@ -28,10 +28,10 @@ Ensure you have the following installed:
     ```
 3. Then
     ```
-    docker compose up
+    sudo ./start.sh
     ```
 
-### Test solution
+### Test the solution
 
 1. Open the web expo app serving on http://localhost:8081
 2. Open the emulator serving on http://127.0.0.1:6080
@@ -39,8 +39,7 @@ Ensure you have the following installed:
 
 
 ### Next esteps
-1. Enable hot reload
-2. Add Iphone Emulators
+1. Add Iphone Emulators
 
 
 ### Donate
